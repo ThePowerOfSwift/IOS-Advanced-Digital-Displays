@@ -10,6 +10,14 @@ import UIKit
 
 class CustomNewReviewTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var title: UILabel!
+    
+    @IBOutlet weak var userEmail: UILabel!
+    
+    @IBOutlet weak var adDescription: UILabel!
+    
+    @IBOutlet weak var verified: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

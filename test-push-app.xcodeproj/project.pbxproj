@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AFD60274E5F919B9D63A7B4 /* Pods_test_push_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0281369B261FFC2A527F1233 /* Pods_test_push_app.framework */; };
+		82117D701E87F72B0051C506 /* campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82117D6F1E87F72B0051C506 /* campaign.swift */; };
+		82117D721E87FBBE0051C506 /* SLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82117D711E87FBBE0051C506 /* SLImageView.swift */; };
 		821E42B21E862AE400DACA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E42B11E862AE400DACA8B /* AppDelegate.swift */; };
 		821E42B41E862AE400DACA8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E42B31E862AE400DACA8B /* ViewController.swift */; };
 		821E42B71E862AE400DACA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821E42B51E862AE400DACA8B /* Main.storyboard */; };
 		821E42B91E862AE400DACA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821E42B81E862AE400DACA8B /* Assets.xcassets */; };
 		821E42BC1E862AE400DACA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821E42BA1E862AE400DACA8B /* LaunchScreen.storyboard */; };
+		821E42C41E86312D00DACA8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 821E42C31E86312D00DACA8B /* GoogleService-Info.plist */; };
+		824D58BB1E91FF3200DE7D82 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D58BA1E91FF3200DE7D82 /* FirebaseManager.swift */; };
+		824D58BD1E9367AA00DE7D82 /* AllReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D58BC1E9367AA00DE7D82 /* AllReviewsTableViewController.swift */; };
+		8252BEFA1E86B173003E47F9 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8252BEF91E86B173003E47F9 /* siren.wav */; };
+		826C83331E87BAC200A39E17 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C83321E87BAC200A39E17 /* DashboardViewController.swift */; };
+		82831EB71E8A76A5008ED420 /* CustomNewReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831EB61E8A76A5008ED420 /* CustomNewReviewTableViewCell.swift */; };
+		82831EB91E8AE00D008ED420 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831EB81E8AE00D008ED420 /* colors.swift */; };
+		82831EBB1E8D6310008ED420 /* UINavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831EBA1E8D6310008ED420 /* UINavButton.swift */; };
+		82831EBD1E8D65EE008ED420 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831EBC1E8D65EE008ED420 /* SettingsViewController.swift */; };
+		82C18CD01E87EFAF009D5F08 /* NewMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C18CCF1E87EFAF009D5F08 /* NewMediaViewController.swift */; };
+		82FD06111E8A726300B9B9AF /* NewReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD06101E8A726300B9B9AF /* NewReviewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0281369B261FFC2A527F1233 /* Pods_test_push_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_push_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3608DB0E9840083C172B7F57 /* Pods-test-push-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-push-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-push-app/Pods-test-push-app.release.xcconfig"; sourceTree = "<group>"; };
+		82117D6F1E87F72B0051C506 /* campaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = campaign.swift; sourceTree = "<group>"; };
+		82117D711E87FBBE0051C506 /* SLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLImageView.swift; sourceTree = "<group>"; };
 		821E42AE1E862AE400DACA8B /* test-push-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-push-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		821E42B11E862AE400DACA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		821E42B31E862AE400DACA8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,19 @@
 		821E42B81E862AE400DACA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821E42BB1E862AE400DACA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821E42BD1E862AE400DACA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821E42C31E86312D00DACA8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		824D58BA1E91FF3200DE7D82 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		824D58BC1E9367AA00DE7D82 /* AllReviewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllReviewsTableViewController.swift; sourceTree = "<group>"; };
+		8252BEF61E86A47F003E47F9 /* test-push-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "test-push-app.entitlements"; sourceTree = "<group>"; };
+		8252BEF91E86B173003E47F9 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = siren.wav; sourceTree = "<group>"; };
+		826C83321E87BAC200A39E17 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		82831EB61E8A76A5008ED420 /* CustomNewReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNewReviewTableViewCell.swift; sourceTree = "<group>"; };
+		82831EB81E8AE00D008ED420 /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		82831EBA1E8D6310008ED420 /* UINavButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavButton.swift; sourceTree = "<group>"; };
+		82831EBC1E8D65EE008ED420 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		82C18CCF1E87EFAF009D5F08 /* NewMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMediaViewController.swift; sourceTree = "<group>"; };
+		82FD06101E8A726300B9B9AF /* NewReviewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReviewsTableViewController.swift; sourceTree = "<group>"; };
+		FD8D6EFE6910875CC0495993 /* Pods-test-push-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-push-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-push-app/Pods-test-push-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFD60274E5F919B9D63A7B4 /* Pods_test_push_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +72,8 @@
 			children = (
 				821E42B01E862AE400DACA8B /* test-push-app */,
 				821E42AF1E862AE400DACA8B /* Products */,
+				B1529918FA033A1ED2B020EA /* Pods */,
+				84BF231EFC63E4226AF68F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,45 @@
 		821E42B01E862AE400DACA8B /* test-push-app */ = {
 			isa = PBXGroup;
 			children = (
+				8252BEF91E86B173003E47F9 /* siren.wav */,
+				8252BEF61E86A47F003E47F9 /* test-push-app.entitlements */,
 				821E42B11E862AE400DACA8B /* AppDelegate.swift */,
 				821E42B31E862AE400DACA8B /* ViewController.swift */,
+				826C83321E87BAC200A39E17 /* DashboardViewController.swift */,
+				82831EBC1E8D65EE008ED420 /* SettingsViewController.swift */,
+				82C18CCF1E87EFAF009D5F08 /* NewMediaViewController.swift */,
+				82FD06101E8A726300B9B9AF /* NewReviewsTableViewController.swift */,
+				824D58BC1E9367AA00DE7D82 /* AllReviewsTableViewController.swift */,
 				821E42B51E862AE400DACA8B /* Main.storyboard */,
 				821E42B81E862AE400DACA8B /* Assets.xcassets */,
 				821E42BA1E862AE400DACA8B /* LaunchScreen.storyboard */,
 				821E42BD1E862AE400DACA8B /* Info.plist */,
+				821E42C31E86312D00DACA8B /* GoogleService-Info.plist */,
+				82117D711E87FBBE0051C506 /* SLImageView.swift */,
+				82117D6F1E87F72B0051C506 /* campaign.swift */,
+				82831EB61E8A76A5008ED420 /* CustomNewReviewTableViewCell.swift */,
+				82831EB81E8AE00D008ED420 /* colors.swift */,
+				82831EBA1E8D6310008ED420 /* UINavButton.swift */,
+				824D58BA1E91FF3200DE7D82 /* FirebaseManager.swift */,
 			);
 			path = "test-push-app";
+			sourceTree = "<group>";
+		};
+		84BF231EFC63E4226AF68F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0281369B261FFC2A527F1233 /* Pods_test_push_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1529918FA033A1ED2B020EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D6EFE6910875CC0495993 /* Pods-test-push-app.debug.xcconfig */,
+				3608DB0E9840083C172B7F57 /* Pods-test-push-app.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 821E42C01E862AE400DACA8B /* Build configuration list for PBXNativeTarget "test-push-app" */;
 			buildPhases = (
+				17ADA4AD334A028A874FAC35 /* [CP] Check Pods Manifest.lock */,
 				821E42AA1E862AE400DACA8B /* Sources */,
 				821E42AB1E862AE400DACA8B /* Frameworks */,
 				821E42AC1E862AE400DACA8B /* Resources */,
+				BDF7BCAAF2760508DA8CC503 /* [CP] Embed Pods Frameworks */,
+				12428911DCBF4BC42F2E0AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +164,16 @@
 				TargetAttributes = {
 					821E42AD1E862AE400DACA8B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RMA974E7M8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,7 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8252BEFA1E86B173003E47F9 /* siren.wav in Resources */,
 				821E42BC1E862AE400DACA8B /* LaunchScreen.storyboard in Resources */,
+				821E42C41E86312D00DACA8B /* GoogleService-Info.plist in Resources */,
 				821E42B91E862AE400DACA8B /* Assets.xcassets in Resources */,
 				821E42B71E862AE400DACA8B /* Main.storyboard in Resources */,
 			);
@@ -131,13 +210,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12428911DCBF4BC42F2E0AB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-push-app/Pods-test-push-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17ADA4AD334A028A874FAC35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF7BCAAF2760508DA8CC503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-push-app/Pods-test-push-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		821E42AA1E862AE400DACA8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FD06111E8A726300B9B9AF /* NewReviewsTableViewController.swift in Sources */,
+				82C18CD01E87EFAF009D5F08 /* NewMediaViewController.swift in Sources */,
+				82831EBD1E8D65EE008ED420 /* SettingsViewController.swift in Sources */,
+				824D58BB1E91FF3200DE7D82 /* FirebaseManager.swift in Sources */,
 				821E42B41E862AE400DACA8B /* ViewController.swift in Sources */,
+				82831EB71E8A76A5008ED420 /* CustomNewReviewTableViewCell.swift in Sources */,
+				82117D701E87F72B0051C506 /* campaign.swift in Sources */,
+				82117D721E87FBBE0051C506 /* SLImageView.swift in Sources */,
+				826C83331E87BAC200A39E17 /* DashboardViewController.swift in Sources */,
+				82831EB91E8AE00D008ED420 /* colors.swift in Sources */,
 				821E42B21E862AE400DACA8B /* AppDelegate.swift in Sources */,
+				824D58BD1E9367AA00DE7D82 /* AllReviewsTableViewController.swift in Sources */,
+				82831EBB1E8D6310008ED420 /* UINavButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +394,12 @@
 		};
 		821E42C11E862AE400DACA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8D6EFE6910875CC0495993 /* Pods-test-push-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "test-push-app/test-push-app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RMA974E7M8;
 				INFOPLIST_FILE = "test-push-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.advanceddigitaldisplays.test-push-app";
@@ -268,8 +410,12 @@
 		};
 		821E42C21E862AE400DACA8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3608DB0E9840083C172B7F57 /* Pods-test-push-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "test-push-app/test-push-app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RMA974E7M8;
 				INFOPLIST_FILE = "test-push-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.advanceddigitaldisplays.test-push-app";
@@ -297,6 +443,7 @@
 				821E42C21E862AE400DACA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

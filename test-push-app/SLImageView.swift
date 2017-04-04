@@ -31,6 +31,13 @@ class SLImageView: UIImageView {
     }
     
     fileprivate func createFullscreenPhoto() -> UIImageView {
+        
+        if let topController = UIApplication.topViewController() as? NewMediaViewController {
+            topController.autorotate = true
+            let value = UIInterfaceOrientation.landscapeLeft.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+            topController.autorotate = false
+        }
 
         let tmpImageView = UIImageView(frame: self.frame)
         tmpImageView.image = self.image
@@ -86,7 +93,16 @@ class SLImageView: UIImageView {
         }
     }
     
+    
+    
     func hideFullscreen() {
+        
+        if let topController = UIApplication.topViewController() as? NewMediaViewController {
+            topController.autorotate = true
+            let value = UIInterfaceOrientation.portrait.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+            topController.autorotate = false
+        }
         
         UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseInOut, animations: {
             
@@ -100,4 +116,21 @@ class SLImageView: UIImageView {
         })
     }
 
+}
+
+extension UIApplication {
+    class func topViewController(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+        if let navigationController = controller as? UINavigationController {
+            return topViewController(controller: navigationController.visibleViewController)
+        }
+        if let tabController = controller as? UITabBarController {
+            if let selected = tabController.selectedViewController {
+                return topViewController(controller: selected)
+            }
+        }
+        if let presented = controller?.presentedViewController {
+            return topViewController(controller: presented)
+        }
+        return controller
+    }
 }
